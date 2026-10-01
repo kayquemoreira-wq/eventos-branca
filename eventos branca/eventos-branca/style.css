@@ -1,0 +1,78 @@
+* {
+    background-color: #749ae0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: border-box;
+    box-sizing: border-box;
+    border: 1px solid #001aff;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+    height: 60px;
+}
+
+.radio-group label, .checkbox-group label {
+    font-weight: normal;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.focado {
+    border-color: blue;
+    background-color: white;
+}
+
+.erro {
+    border-color: rgb(228, 20, 20);
+}
+
+#contador {
+    font-size: 12px;
+    color: #242931;
+}
+
+#mensagem {
+    margin-top: 16px;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+#mensagem.sucesso {
+    background-color: #001aff;
+    color: #006419;
+    display: block;
+}
+
+#mensagem.falha {
+    background-color: white;
+    color: #8b0618;
+    display: block;
+}
+
+button {
+    margin-top: 16px;
+    padding: grab;
+    cursor: pointer;
+}
